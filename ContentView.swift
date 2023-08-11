@@ -23,7 +23,7 @@ struct ContentView: View {
                 .keyboardType(.numberPad)
 
             Button(action: {
-                let sum = (Int(number1) ?? 0) + (Int(number2) ?? 0)
+                let sum = (Int(number1) ?? 1) + (Int(number2) ?? 0)
                 result = "Sum = \(sum)"
             }) {
                 Text("Add Numbers")
